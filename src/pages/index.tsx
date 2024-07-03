@@ -41,7 +41,7 @@ export default function Home() {
   //  if(!questao.respondida) setQuestao(questao.responder(-1))
   //}
 
-  const BASE_URL = 'http://localhost:3000/api'
+  const BASE_URL = 'https://quiz-ochre-tau.vercel.app/api'
 
   async function carregaIdsQuestoes() {
     const resp = await fetch(`${BASE_URL}/questionario`)
